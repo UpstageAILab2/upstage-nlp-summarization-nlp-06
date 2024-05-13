@@ -1,2 +1,7 @@
+# data file
 *.csv
+
+# code file
 baseline.ipynb
+config.yaml
+requirements.txt
