@@ -5,3 +5,9 @@
 baseline.ipynb
 config.yaml
 requirements.txt
+
+# wandb file
+wandb
+
+# checkpoint file
+checkpoint-*
