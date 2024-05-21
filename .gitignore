@@ -11,3 +11,6 @@ wandb
 
 # checkpoint file
 checkpoint-*
+
+# 기타
+0*
