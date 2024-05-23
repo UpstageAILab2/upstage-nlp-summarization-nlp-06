@@ -1,17 +1,11 @@
-# data file
+*.yaml
+*.txt
 *.csv
+*.json
+*.safetensors
+*.pt
+*.pth
+*.bin
 *.pickle
-
-# code file
 baseline.ipynb
-config.yaml
-requirements.txt
-
-# wandb file
 wandb
-
-# checkpoint file
-checkpoint-*
-
-# 기타
-0*
