@@ -1,5 +1,6 @@
 # data file
 *.csv
+*.pickle
 
 # code file
 baseline.ipynb
