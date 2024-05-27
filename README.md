@@ -2,92 +2,104 @@
 # Title (Please modify the title)
 ## Team
 
-| ![박패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![최패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![오패캠](https://avatars.githubusercontent.com/u/156163982?v=4) |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-|            [박패캠](https://github.com/UpstageAILab)             |            [이패캠](https://github.com/UpstageAILab)             |            [최패캠](https://github.com/UpstageAILab)             |            [김패캠](https://github.com/UpstageAILab)             |            [오패캠](https://github.com/UpstageAILab)             |
-|                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
+| ![박패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![최패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김패캠](https://avatars.githubusercontent.com/u/156163982?v=4) |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+|            [이강건](https://github.com/Uncommonness)             |            [한지승](https://github.com/wltmd1114)             |            [홍재민](https://github.com/HongJaeMin)             |            [이승현](https://github.com/EffortLEE1008)             |
+|                            팀장, <br> EDA, <br> kobart, <br> T5-small/base/large, <br> Data Preprocessing                            |                            팀원, <br> 발표, <br> kobart, <br> baseline experiment                            |                            팀원, <br> EDA, <br> kobart, <br> T5-small/base/large, <br> Data Preprocessing, <br> Notion template                            |                            팀원, <br> kobart, <br> baseline experiment, <br> Rouge score                             |
 
 ## 0. Overview
 ### Environment
-- _Write Development environment_
+- Python
+- Pytorch
+- transformers
 
 ### Requirements
-- _Write Requirements_
+- torch
+- pandas
+- rouge
+- yaml
+- transformers
+- wandb
 
 ## 1. Competiton Info
 
 ### Overview
 
-- _Write competition information_
+- Deep Learning Model을 이용하여 Dialogue Summarization을 진행한다.
 
 ### Timeline
 
-- ex) January 10, 2024 - Start Date
-- ex) February 10, 2024 - Final submission deadline
+- May 13, 2024 - Start Date
+- May 27, 2024 - Final submission deadline
 
 ## 2. Components
 
 ### Directory
 
-- _Insert your directory structure_
-
-e.g.
-```
-├── code
-│   ├── jupyter_notebooks
-│   │   └── model_train.ipynb
-│   └── train.py
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
-```
+- HJM
+- HJS
+- LKK
+- LSH
 
 ## 3. Data descrption
 
 ### Dataset overview
 
-- _Explain using data_
+- train: (12457, 4)
+- dev: (499, 4)
+- test: (499, 2)
 
 ### EDA
 
-- _Describe your EDA process and step-by-step conclusion_
+- LKK/EDA/EDA.ipynb
+- HJM/DB/basic-preprocessing/token_check.ipynb
 
 ### Data Processing
 
-- _Describe data processing process (e.g. Data Labeling, Data Cleaning..)_
+- Data Cleaning
+    - LKK/Preprcessing/Preprocessing.ipynb
+    - HJM/DB
 
 ## 4. Modeling
 
-### Model descrition
+### Model
 
-- _Write model information and why your select this model_
+Hugging Face
+
+- bart
+    - digit82/kobart-summarization
+    - ainize/kobart-news
+    - EbanLee/kobart-summary-v3
+    - alaggung/bart-r3f
+    - gogamza/kobart-summarization
+- t5
+    - lcw99/t5-base-korean-text-summary
+    - lcw99/t5-large-korean-text-summary
+    - eenzeenee/t5-base-korean-summarization
+    - paust/pko-t5-large
 
 ### Modeling Process
 
-- _Write model train and test process with capture_
+- Hugging Face Model Load 후, 최적의 Config 조합 찾기 위해, 실험
 
 ## 5. Result
 
 ### Leader Board
 
-- _Insert Leader Board Capture_
-- _Write rank and score_
+### Public 43.4391 (5th)
+![image](https://github.com/UpstageAILab2/upstage-nlp-summarization-nlp-06/assets/107130478/95148e17-888f-473b-8b49-6b23bf6fa0b1)
+
+### Private 0.9336 (5th)
+![image](https://github.com/UpstageAILab2/upstage-cv-classification-cv-06/assets/107130478/c30427f3-d94d-4dee-be89-05af07189837)
 
 ### Presentation
 
-- _Insert your presentaion file(pdf) link_
+- [패스트캠퍼스]-Upstage-AI-Lab-3기-6조-CV경진대회.pdf
 
 ## etc
 
-### Meeting Log
+### Meeting
 
-- _Insert your meeting log link like Notion or Google Docs_
+- Slack, Zoom, Notion
 
 ### Reference
-
-- _Insert related reference_
