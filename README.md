@@ -89,8 +89,9 @@ Hugging Face
 ### Public 43.4391 (5th)
 ![image](https://github.com/UpstageAILab2/upstage-nlp-summarization-nlp-06/assets/107130478/95148e17-888f-473b-8b49-6b23bf6fa0b1)
 
-### Private 0.9336 (5th)
-![image](https://github.com/UpstageAILab2/upstage-cv-classification-cv-06/assets/107130478/c30427f3-d94d-4dee-be89-05af07189837)
+### Private 41.1810 (4th)
+![image](https://github.com/UpstageAILab2/upstage-nlp-summarization-nlp-06/assets/107130478/49be9286-5050-4e52-980d-7d96c3953068)
+
 
 ### Presentation
 
