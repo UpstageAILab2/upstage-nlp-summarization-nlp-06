@@ -95,7 +95,7 @@ Hugging Face
 
 ### Presentation
 
-- [패스트캠퍼스]-Upstage-AI-Lab-3기-6조-CV경진대회.pdf
+- [패스트캠퍼스]-Upstage-AI-Lab-3기-6조-NLP경진대회.pdf
 
 ## etc
 
