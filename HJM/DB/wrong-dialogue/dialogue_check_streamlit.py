@@ -26,8 +26,8 @@ st.markdown(
 st.title('데이터 확인')
 
 
-train_df = pd.read_csv('../../data/train_regular-expression.csv')
-valid_df = pd.read_csv('../../data/dev_regular-expression.csv')
+train_df = pd.read_csv('../../data/train_regular-expression2.csv')
+valid_df = pd.read_csv('../../data/dev_regular-expression2.csv')
 
 def save_feedback(data_option, feedback_opt, feedback_text):
     feedback_df = pd.DataFrame([[feedback_opt, feedback_text]], columns=['Option', 'Feedback'])
@@ -44,11 +44,11 @@ data_option = st.selectbox(
 if data_option:
     if data_option == 'train':
         data = train_df
-    else:
+    elif data_option == 'valid':
         data = valid_df
 
     if 'idx' not in st.session_state:
-        st.session_state.idx = 100 # 0
+        st.session_state.idx = 287 # 0
     if 'show_text_input' not in st.session_state:
         st.session_state.show_text_input = False
 
